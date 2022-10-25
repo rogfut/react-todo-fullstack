@@ -1,0 +1,73 @@
+*{
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+
+.formHolder{
+  background-color: #388fc4;
+  box-shadow: 10px -10px 5px #888888;
+  max-width: 60%;
+  margin: auto;
+  height: 100vh;
+  /* border: dotted #F55A00 5vw; */
+  border: 1px solid black;
+  /* margin: 0vw; */
+  padding: 5vw ;
+  position:relative; 
+  /* position:relative for .prevBtn and .nextBtn position:absolute; */
+}
+
+.formHolder h2{
+  color: #071d3b;
+  font-size: 35px ;
+  text-align: center;
+  /* color: #F55A00; */
+  margin: 0 0 .5vh 0;
+}
+
+.formHolder label{
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 0 2vh 0;
+}
+
+
+.formHolder input {
+  color: #071d3b;
+  background-color: #f9f4e7;
+  display: block;
+  width: 100%;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: .9vw 0 ;
+  border:0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.formHolder textarea{
+  height: 15vh;
+}
+
+.formHolder .btn-primary {
+  /* background-color: #1eff00; */
+  display: inline-block;
+  position: relative;
+  max-width: 20%;
+  margin: auto;
+  height: 3rem;
+  /* color: red; */
+  border: 0;
+  bottom: 0;
+  cursor: pointer;
+  font-size: 2.5vh;
+}
+
+/* .btn-primary {
+  margin: 1rem 0 1rem 8rem;
+  margin-left: 52%;   
+  border-radius: 0 20px 20px 0; 
+} */

@@ -1,0 +1,6 @@
+{% for todo in todolist %}
+<h3>{{todo}}</h3><hr>
+{% endfor %}
+<form action="http://127.0.0.1:5000/data/create">
+  <input type="submit" value="Go back to Create" />
+</form>
